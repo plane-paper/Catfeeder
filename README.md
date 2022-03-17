@@ -12,6 +12,7 @@ This is a tutorial to build your own automatic catfeeder using raspberry pi, som
 # Guide
 1. Download all the files in the Github Repo to your computer
 2. Save all the .STL files in a separate folder.
+3. Save motiondetect-2.py somewhere you can access it.
 # Part 1 - Program
 4. Open motiondetect-2.py using an IDE of your choice, or simply with notepad.
 5. Take out your Raspberry Pi, motor, and camera, and connect them like so:
