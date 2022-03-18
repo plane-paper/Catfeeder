@@ -7,7 +7,9 @@ This is a tutorial to build your own automatic catfeeder using raspberry pi, som
 - 6 Wires
 - A Continuous 360 Degress Servo Motor
 - A Computer
-- A 3D Printer and Filaments
+- A 3D Printer
+- 3D Printing Filament, 400 Metric Grams
+- 3 Pen Springs
 
 # Guide
 1. Download all the files in the Github Repo to your computer
@@ -34,3 +36,25 @@ If in doubt, check the card that comes with your Raspberry Pi. The motor should 
 13. Test run the program by typing python3 catfeeder.py
 14. After the terminal prints "Meow", try to make the camera observe a moving object. When it does, the motor should turn 520 degrees.
 15. Congrats, you've finished the programming part of this project.
+# Part 2 - 3D Printing
+16. Access the 3D printer using a USB or cable.
+17. Open one of the STL files that is saved in a separate folder using Cura or another application of your choice.
+18. Adjust the settings to appropriate sizes, and nausil to 0.2 mm or smaller.
+19. Slice the product and save the file into the USB.
+20. Plug the USB into the printer and start printing.
+21. Wait until the print finishes. Repeat steps 17 to 20 for every other STL component.
+22. Congrats, you've finished the 3D printing part of this project.
+# Part 3 - Assembly
+23. Clean out all the support from the base body and assembly the cylinders onto the flat washer for the bearing as in the photo below.
+![product]()
+24. Assembly the servo motor then the spinner/gearing parts as in the photo below.
+![productservo]()
+25. Check out if the camera wire hole was clear. Place the camera into the camera hole, the camera wire should be attached and go all the way in. As the photo below.
+![productcamera]()
+26. Place the hexagon structure holder on top of the base, it should connect and hold the two gearing parts together.
+27. Assembly the door switch as photos below. 
+![productdoor]()
+28. Slide the Raspberry Pi into the Pi holder and connect all the wires in the same manner as the program part.
+29. There are three connection systems in the base in order the connect and stable the other parts the feeder(front), the upper body (top right) and the pi holder(bottom). place the springs then the cylinder with a round head into the hole push it in a little in order to slide the parts in, a tool might be needed for the pi holder connector.
+30. Plugin the USB connector from the side to connect it to the computer.
+31. Congrats, you now have a completed automatic catfeeder.
