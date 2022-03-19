@@ -15,7 +15,7 @@ This is a tutorial to build your own automatic catfeeder using raspberry pi, som
 1. Download all the files in the Github Repo to your computer
 2. Save all the .STL files in a separate folder.
 3. Save motiondetect-2.py somewhere you can access it.
-# Part 1 - Program
+## Part 1 - Program
 4. Open motiondetect-2.py using an IDE of your choice, or simply with notepad.
 5. Take out your Raspberry Pi, motor, and camera, and connect them like so:
 ![Wiring connection](IMG_20220317_154805.jpg)
@@ -36,7 +36,7 @@ If in doubt, check the card that comes with your Raspberry Pi. The motor should 
 13. Test run the program by typing python3 catfeeder.py
 14. After the terminal prints "Meow", try to make the camera observe a moving object. When it does, the motor should turn 520 degrees.
 15. Congrats, you've finished the programming part of this project.
-# Part 2 - 3D Printing
+## Part 2 - 3D Printing
 16. Access the 3D printer using a USB or cable.
 17. Open one of the STL files that is saved in a separate folder using Cura or another application of your choice.
 18. Adjust the settings to appropriate sizes, and nausil to 0.2 mm or smaller.
@@ -44,7 +44,7 @@ If in doubt, check the card that comes with your Raspberry Pi. The motor should 
 20. Plug the USB into the printer and start printing.
 21. Wait until the print finishes. Repeat steps 17 to 20 for every other STL component.
 22. Congrats, you've finished the 3D printing part of this project.
-# Part 3 - Assembly
+## Part 3 - Assembly
 23. Clean out all the support from the base body and assembly the cylinders onto the flat washer for the bearing as in the photo below.
 ![product]()
 24. Assembly the servo motor then the spinner/gearing parts as in the photo below.
