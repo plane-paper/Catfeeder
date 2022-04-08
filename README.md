@@ -46,11 +46,11 @@ If in doubt, check the card that comes with your Raspberry Pi. The motor should 
 22. Congrats, you've finished the 3D printing part of this project.
 ## Part 3 - Assembly
 23. Clean out all the support from the base body and assembly the cylinders onto the flat washer for the bearing as in the photo below.
-![product]()
+![product](product.jpg)
 24. Assembly the servo motor then the spinner/gearing parts as in the photo below.
-![productservo]()
+![productservo](productservo.jpg)
 25. Check out if the camera wire hole was clear. Place the camera into the camera hole, the camera wire should be attached and go all the way in. As the photo below.
-![productcamera]()
+![productcamera](productcamera.jpg)
 26. Place the hexagon structure holder on top of the base, it should connect and hold the two gearing parts together.
 27. Assembly the door switch as photos below. 
 ![productdoor]()
