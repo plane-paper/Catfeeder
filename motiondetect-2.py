@@ -38,7 +38,9 @@ while True:
                 p.ChangeDutyCycle(1)
                 time.sleep(0.8)
                 p.ChangeDutyCycle(0)
+                print("Cooldown started.")
                 time.sleep(15) #Change this line to adjust the cooldown
+                print("Cooldown over.")
                 #Add further actions (motor, etc) here
 #Cleanup
 vs.stop()
