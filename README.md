@@ -53,7 +53,7 @@ If in doubt, check the card that comes with your Raspberry Pi. The motor should 
 ![productcamera](productcamera.jpg)
 26. Place the hexagon structure holder on top of the base, it should connect and hold the two gearing parts together.
 27. Assembly the door switch as photos below. (optional)
-![productdoor](IMM_0772.jpg)
+![productdoor](IMG_0772.jpg)
 28. Slide the Raspberry Pi into the Pi holder and connect all the wires in the same manner as the program part.
 29. There are three connection systems in the base in order the connect and stable the other parts the feeder(front), the upper body (top right) and the pi holder(bottom). place the springs then the cylinder with a round head into the hole push it in a little in order to slide the parts in, a tool might be needed for the pi holder connector.
 30. Plugin the USB connector from the side to connect it to the computer.
