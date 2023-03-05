@@ -21,7 +21,7 @@ while True:
         #Gray Screen
         frame = imutils.resize(frame, width=500) #Resize frame to fit window
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) #Render gray for frame delta
-        gray = cv2.GaussianBlur(gray, (21, 21), 0) #高斯模糊, erase detail change for bad webcam
+        gray = cv2.GaussianBlur(gray, (21, 21), 0) #Erase detail change for bad webcam
         if firstFrame is None: #Render screen gray for firstframe
                 firstFrame = gray
                 continue
